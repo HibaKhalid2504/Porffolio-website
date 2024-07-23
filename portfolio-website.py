@@ -68,7 +68,7 @@ with col2:
 st.title(" ")
 
 st.title("My Setup")
-st.image("images/hiba.jpg")
+#st.image("images/hiba.jpg")
 
 st.write(" ")
 st.title("My Skills")
@@ -82,19 +82,22 @@ st.title("Gallery")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/hiba.jpg")
-    st.image("images/hiba.jpg")
-    st.image("images/hiba.jpg")
+    st.title("|col1")
+    # st.image("images/hiba.jpg")
+    # st.image("images/hiba.jpg")
+    # st.image("images/hiba.jpg")
 
 with col2:
-    st.image("images/hiba.jpg")
-    st.image("images/hiba.jpg")
-    st.image("images/hiba.jpg")
+    st.title("|col2")
+    # st.image("images/hiba.jpg")
+    # st.image("images/hiba.jpg")
+    # st.image("images/hiba.jpg")
 
 with col3:
-    st.image("images/hiba.jpg")
-    st.image("images/hiba.jpg")
-    st.image("images/hiba.jpg")
+    st.title("|col3")
+    # st.image("images/hiba.jpg")
+    # st.image("images/hiba.jpg")
+    # st.image("images/hiba.jpg")
 
 st.subheader(" ")
 st.write("CONTACT")
